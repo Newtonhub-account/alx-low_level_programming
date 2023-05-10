@@ -2,11 +2,12 @@
 #include <stdio.h>
 
 /**
- * can be opened.
- * File to read from.
- * File to write to.
- * Arguments vector.
- *: No return.
+ * error_file - Checks if files can be opened.
+ * @file_from: File to read from.
+ * @file_to: File to write to.
+ * @argv: Arguments vector.
+ *
+ * Return: No return.
  */
 void error_file(int file_from, int file_to, char *argv[])
 {
