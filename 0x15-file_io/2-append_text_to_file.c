@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * file.
- * The name of the file to append to.
- * The text content to append to the file.
+ * append_text_to_file - Appends text to the end of a file.
+ * @filename: The name of the file to append to.
+ * @text_content: The text content to append to the file.
  *
- * turn: 1 if the file exists, -1 otherwise.
+ * Return: 1 if the file exists, -1 otherwise.
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
